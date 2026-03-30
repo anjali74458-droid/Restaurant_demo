@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tasty Bites Restaurant</title>
+<style>
+body{
+font-family: Arial;
+margin:0;
+background:#fafafa;
+}
+
+header{
+background:#ff6b35;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:30px;
+}
+
+.menu{
+display:flex;
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Tasty Bites Restaurant</h1>
+<p>Delicious Food | Fresh Taste</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Menu</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
+
+<section>
+<h2>Our Popular Dishes</h2>
+
+<div class="menu">
+
+<div class="card">
+<h3>Biryani</h3>
+<p>Special chicken biryani</p>
+</div>
+
+<div class="card">
+<h3>Pizza</h3>
+<p>Cheesy delight pizza</p>
+</div>
+
+<div class="card">
+<h3>Burger</h3>
+<p>Juicy grilled burger</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+<h2>Contact Us</h2>
+<p>📍 Location: Your City</p>
+<p>📞 Phone: 9876543210</p>
+</section>
+
+<footer>
+<p>© 2026 Tasty Bites Restaurant</p>
+</footer>
+
+</body>
+</html>
